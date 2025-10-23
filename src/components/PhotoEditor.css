@@ -1,0 +1,54 @@
+.photo-editor {
+  min-height: 100vh;
+  background: #ffffff;
+}
+
+.editor-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 48px 24px;
+}
+
+.editor-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* Config Status */
+.config-status {
+  background: #e8f0fe;
+  border: 1px solid #1a73e8;
+  border-radius: 4px;
+  padding: 10px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 13px;
+  color: #1a73e8;
+}
+
+.clear-btn {
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #5f6368;
+  padding: 0 4px;
+  line-height: 1;
+}
+
+.clear-btn:hover {
+  color: #202124;
+}
+
+/* Fullscreen Editor */
+.editor-fullscreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  background: #fff;
+}

@@ -1,0 +1,44 @@
+.actions-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.action-card {
+  flex: 1;
+  min-width: 150px;
+}
+
+.action-button {
+  width: 100%;
+  background: #ffffff;
+  color: #5f6368;
+  border: 1px solid #dadce0;
+  padding: 10px 16px;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.action-button:hover:not(:disabled) {
+  background: #f8f9fa;
+  border-color: #dadce0;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.action-button:disabled {
+  background: #f8f9fa;
+  color: #dadce0;
+  cursor: not-allowed;
+  border-color: #f1f3f4;
+}
+
+.file-input {
+  display: none;
+}
